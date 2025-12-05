@@ -1,0 +1,11 @@
+type: object
+properties:
+  socket_path:
+    type: string
+    description: Path to rinkhals unix socket (JSON-RPC)
+    default: /tmp/unix_uds1
+  timeout:
+    type: number
+    description: Default RPC timeout in seconds
+    default: 10.0
+additionalProperties: false

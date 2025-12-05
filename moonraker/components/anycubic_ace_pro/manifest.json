@@ -1,0 +1,6 @@
+{
+    "name": "Anycubic Ace Pro",
+    "description": "Moonraker plugin to control Anycubic Ace Pro via Rinkhals JSON-RPC socket",
+    "version": "0.1.0",
+    "modules": ["moonraker.components.anycubic_ace_pro.ace_pro"]
+}
