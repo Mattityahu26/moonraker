@@ -106,7 +106,7 @@ async def ace_start_drying(request):
             "id": body["id"],
             "duration": int(body.get("duration", 3600)),
             "temp": int(body.get("temp", 45)),
-            "fan_speed": int(body.get("fan_speed", 0)),
+            #"fan_speed": int(body.get("fan_speed", 0)),
         }
     except KeyError:
         raise web.HTTPBadRequest(reason="Missing required key 'id'")
